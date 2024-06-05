@@ -1,0 +1,65 @@
+@import url("assets/CSS/reset.css");
+@import url("assets/CSS/about.css");
+@import url("assets/CSS/academic.css");
+@import url("assets/CSS/contacto.css");
+@import url("assets/CSS/exp.css");
+@import url("assets/CSS/footer.css");
+@import url("assets/CSS/hobbies.css");
+@import url("assets/CSS/menu.css");
+@import url("assets/CSS/skills.css");
+@import url("assets/CSS/title.css");
+
+
+:root {
+    --color-primario: #8a4beb;
+    --color-sec: #564beb;
+    --color-ter: #be4beb;
+    --color-cuarto: #F2F2F2;
+    --color-quinto: #0D0D0D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+html {
+    font-family: 'Raleway';
+    overflow-x: scroll;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+h1, h2, h3, h4, h5, p, input, button, textarea {
+    color: var(--color-quinto);
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
